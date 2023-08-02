@@ -11,7 +11,6 @@ import com.example.cryptoapp.data.network.ApiFactory
 import com.example.cryptoapp.databinding.ItemCoinInfoBinding
 import com.example.cryptoapp.domain.CoinInfo
 import com.squareup.picasso.Picasso
-import kotlinx.android.synthetic.main.item_coin_info.view.*
 
 class CoinInfoAdapter(private val context: Context) :
     ListAdapter<CoinInfo,CoinInfoViewHolder>(CoinInfoDiffCallback) {
