@@ -9,7 +9,7 @@ import kotlinx.coroutines.delay
 
 class RefreshDataWorker(context:Context,workerParameters: WorkerParameters):
     CoroutineWorker(context,workerParameters) {
-    private val coinInfoDao = AppDatabase.getInstance(context).coinInfoDao()
+    private val coinInfoDao = AppDatabase.getInstance(context).coinPriceInfoDao()
 
     private val mapper = CoinMapper()
 
